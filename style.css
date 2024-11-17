@@ -1,0 +1,678 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.te{
+
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+}
+.text1{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+}
+.text1 img{
+    height: 40px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+#li{
+margin-right: 0;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 70px;
+}
+.text2{
+
+
+display: flex;
+justify-content: space-between;
+height: 80vh;
+align-items: center;
+ 
+}
+.text3{
+    width: 80%;
+}
+.text3 h1{
+    font-size: 3rem;
+    width: 85%;
+    margin-bottom: 15px;
+}
+.text3 p{
+    width: 94%;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+.mintext3 input{
+height: 25px;
+}
+.mintext3 button{
+    height: 28px ;
+    width: 130px;
+    background-color: #6b9bff;
+    color: white;
+    border: none;
+    font-size: 11px;
+}
+
+.text4 img{
+    width: 100%;
+}
+.text5{
+    display: flex;
+    background-color:#f9f8fe;
+    height: 60vh;
+    justify-content: space-between;
+}
+.text6{
+    margin-left: 5%;
+    width: 60%;
+}
+.text6 h1{
+    font-size: 3rem;
+
+}
+.text6 p{
+    font-size: 15px;
+    width: 55%;
+    margin-top: 20px;
+}
+.p p{
+    font-size: 15px;
+    width: 53%;
+}
+.text6 h5{
+    text-decoration: underline;
+    margin-top: 20px;
+}
+.mintext6{
+    background-color: white;
+    width: 300px;
+    height: 210px;
+    margin-top: 30px;
+
+}
+.mintext6 svg{
+   margin:20px 0 0 20px;
+    width: 100%;
+    height: 10px;
+}
+.mintext6 p{
+    margin-left: 20px;
+    width: 93%;
+}
+.img img{
+    width: 100%;
+    position: relative;
+    top: 10px;
+    
+}
+.lego img{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+margin-left: 20px;
+
+}
+
+.lego h3{
+    position: relative;
+    font-size: 13px;
+    left: 70px;
+    bottom: 30px;
+}
+.lego p{
+    position: relative;
+    left: 50px;
+    bottom: 45px;
+    font-size: 10px;
+}
+
+.text7{
+    width: 50%;
+    margin-right:5%;
+}
+.text7 img{
+    width:100%;
+    height: 65%;
+}
+.text8{
+    height: 25vh;
+    background-color:#575989;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text9{
+    margin-left: 5%;
+}
+.text9 h1{
+    color: white;
+}
+.text9 p{
+    margin-top: 20px;
+    color: white;
+    opacity: 0.7;
+    width: 44%;
+}
+.text10{
+    margin-right: 5%;
+}
+.text10 input{
+    height: 30px;
+    width: 350px;
+}
+.text10 button{
+
+    background-color:#6b9bff;
+    display: block;
+    margin-top: 10px;
+    height: 35px;
+    width: 200px;
+}
+.text11{
+    height: 30vh;
+    background-color:#07043b;
+}
+.text11 #img{
+    width: 100px;
+    margin-left: 5%;
+    margin-top: 80px;
+    margin-bottom: 10px;
+ 
+}
+.text12{
+
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+   margin: auto;
+
+}
+.text12 p{
+    margin-bottom: 10px;
+    color: white;
+}
+.mintext12.d img{
+    border-radius: 60%;
+    padding: 5px;
+    border:1px solid white ;
+    margin-right: 10px;
+    
+    
+}
+@media (max-width: 1500px) and (min-width:900px)
+{
+    .text3 h1{
+        font-size: 2rem;
+        width: 80%;
+  
+    }
+    .text3 p{
+        width: 85%;
+
+    }
+    .text4{
+width: 70%;
+    }
+    .text4 img{
+        width: 100%;
+    }
+    .text5{
+  
+        height: 70vh;
+        
+    }
+    .text7{
+        width: 40%;
+      
+    }
+    .text6{
+   
+        width: 50%;
+    }
+    .text6 h1{
+        font-size: 2rem;
+    
+    }
+    .text6 p{
+        font-size: 10px;
+        width: 56%;
+    }
+    .p p{
+        font-size: 10px;
+        width: 65%;
+    }
+    .text11{
+        height: 35vh;
+        
+    }
+}
+@media (max-width: 899px) and (min-width:700px){
+    .text3 h1{
+        font-size: 1.5rem;
+       width: 90%;
+  
+    }
+    .text4{
+        width:60%;
+            }
+            .text3 p{
+                font-size: 15px;
+                width: 100%;
+            }
+            .text4{
+                width: 50%;
+                    }
+                    .text7{
+                        width: 30%;
+                      
+                    }
+                    .text6{
+                   
+                        width: 60%;
+                    }
+                    .text6 h1{
+                        font-size: 1.5rem; 
+                    }
+                    .text6 p{
+                        font-size: 10px;
+                        width: 56%;
+                    }
+                    .text9 h1{
+                        font-size: 1.5rem;  
+                }
+                .text9 p{
+                    width: 80%;
+                }
+                .text11{
+                    height: 35vh;
+                }
+            }
+            @media (max-width: 699px) and (min-width:400px){
+                .text2{
+                    display:block;
+                    }
+                    .te{
+                        height: 120vh;
+                    }
+                    .text3{
+                        width: 90%;
+                        position: absolute;
+                        top:550px;
+                        text-align: center;
+                    }
+                    .text3 h1{
+                        font-size: 2rem;
+                        width: 80%;
+                        margin: auto;
+                        margin-bottom: 20px;
+                    }
+                    .text3 p{
+                        width: 60%;
+                        margin: auto;
+                        margin-bottom: 20px;
+                    }
+                    .mintext3 input{
+                    height: 25px;
+                    display: block;
+                    width: 80%;
+                    margin: auto;
+                }
+                .mintext3 button{  
+                        height: 28px ;
+                        margin-top: 20px;
+                        width: 80%;
+                        background-color: #6b9bff;
+                        color: white;
+                        border: none;
+                        font-size: 11px;
+                       
+                    }
+                    .text5{
+                        display: block;
+                   width: 100%;
+                   margin: auto;
+                        height: 125vh;
+
+                        position: relative;
+                       bottom: 10px;
+                    }
+                    .text6{
+                     margin: auto;
+                        width: 90%;
+                      position: absolute;
+                      top: 450PX;
+                    }
+                    .text6 h1{
+                        font-size: 1.5rem;
+                        text-align: center;
+                        width: 100%;
+                    }
+                    .text6 p{
+                        font-size: 15px;
+                        width: 100%;
+                        margin-left: 5%; 
+                    }
+                    .p p{
+                        width: 90%;
+                    }
+                    .text7{
+                        width: 90%;
+                        height: 50%; 
+                     margin: auto;    
+                    }
+                    .text7 img{
+                        width:100%;
+                    }
+                    .img img{
+                        width: 100%;
+                        position:static;    
+                    }
+                    .mintext6{
+                      width: 70%;
+                      margin: auto;
+                    margin-top: 20px;
+                  
+                    }
+                    .text6 h5{
+                        text-align: center;                         
+              }
+                    .lego h3{
+                        bottom: 30px;
+                    }
+                    .mintext6 p{
+                        margin-left: 15px;
+                        width: 90%;
+                       
+                    }
+                    .lego img{
+                        width: 40px;
+                        height: 40px;
+                        margin-top: 20px;
+                        border-radius: 50%;
+                        margin-left: 15px;
+                    position: relative;
+                        }
+                        .text8{
+                            height: 45vh;
+                            display: block;
+                            
+                        }
+                        .text9{
+                            margin-left: 0;
+                        }
+                        .text9 h1{
+                            font-size: 2rem;
+                            text-align: center;
+                            padding-top: 50px;
+                            margin-bottom: 30px;
+                        }
+                        .text9 p{
+                         text-align: center;
+                           margin: auto;
+                            width: 67%;
+                        }
+                        .text10{
+                            margin-right: 0%;
+                            width: 80%;
+                            margin: auto;
+                        }
+                        .text10 input{
+                            height: 35px;
+                            margin-top: 20px;
+                            width: 100%;
+                            
+                        }
+                        .text10 button{
+                        
+                            background-color:#6b9bff;
+                            display: block;
+                            margin-top: 10px;
+                            height: 42px;
+                            width: 100%;
+                            color: antiquewhite;
+                        }
+                        .text1 img{
+                            height: 20px;
+                        }
+                        nav ul li{
+                            
+                            margin-right: 30px;
+                        }
+                        .text11{
+                            height: 80vh;
+                        }
+                        .text11 #img{
+                            width: 100px;
+                            margin-left: 5%;
+                            margin-top: 80px;
+                            margin-bottom: 10px;
+                         
+                        }
+                        .text12{
+                        
+                            display: block;
+                            
+                            width: 90%;
+                           margin: auto;
+                        
+                        }
+                        .mintext12{
+                            margin-top: 50px;
+                        }
+                        .mintext12.d{
+                    width: 44%;
+                    
+                     margin: auto;
+
+                        }
+                    }
+                    
+                    @media (max-width: 399px) and (min-width:100px){
+                        .text1 img{
+                            height: 25px;
+                        }
+                        nav ul li{
+                            margin-right: 20px;
+                        }
+                        .text2{
+                            display: block;                            
+                            height: 80vh;
+                            align-items: center;                            
+                            }
+                            .te{
+                                position: relative;
+                            }
+                            .text3{
+                                position: absolute;
+                                width: 100%;
+                                top: 400px;
+                                text-align: center;
+                            }
+                     
+                        .text3 h1{
+                            font-size: 1rem;
+                            width: 60%;
+                            margin: auto;
+                            margin-bottom: 20px;
+                        }
+                        .text3 p{
+                            width: 72%;
+                            margin: auto;
+                            margin-bottom: 20px;
+                            font-size: 13px;
+                        }
+                        .mintext3 input{
+                        height: 25px;
+                        display: block;
+                        width: 80%;
+                        margin: auto;
+                    }
+                    .mintext3 button{  
+                            height: 28px ;
+                            margin-top: 20px;
+                            width: 80%;
+                            background-color: #6b9bff;
+                            color: white;
+                            border: none;
+                            font-size: 11px;
+                           
+                        }
+                        .text5{
+                            display: block;
+                       width: 100%;
+                       margin: auto;
+                            height: 110vh;
+                            position: relative;
+                           bottom: 10px;
+                        }
+                        .text6{
+                         margin: auto;
+                            width: 90%;
+                          position: absolute;
+                          top: 250PX;
+                        }
+                        .text6 h1{
+                            font-size: 1rem;
+                            text-align: center;
+                            width: 100%;
+                        }
+                        .text6 p{
+                            font-size: 13px;
+                            width: 79%;
+                            margin-left: 5%; 
+                        }
+                        .p p{
+                            width: 79%;
+                        }
+                        .text7{
+                            width: 90%;
+                            height: 40%; 
+                         margin: auto;    
+                        }
+                        .text7 img{
+                            width:100%;
+                        }
+                        .img img{
+                            width: 100%;
+                            position:static;    
+                        }
+
+                    .mintext6{
+                      width: 80%;
+                      margin: auto;
+                    margin-top: 20px;
+                  
+                    }
+                    .text6 h5{
+                        text-align: center;                         
+              }
+                    .lego h3{
+                        bottom: 30px;
+                        font-size: 13px;
+                    }
+                    
+                    .mintext6 p{
+                        margin-left: 15px;
+                        width: 90%;
+                       
+                    }
+                    .lego img{
+                        width: 40px;
+                        height: 40px;
+                        margin-top: 20px;
+                        border-radius: 50%;
+                        margin-left: 15px;
+                    position: relative;
+                        }
+                        .lego p{
+                            position: relative;
+                            left: 50px;
+                            bottom: 45px;
+                            font-size: 10px;
+                        }
+                        .text8{
+                            height: 45vh;
+                            display: block;
+                            
+                        }
+                        .text9{
+                            margin-left: 0;
+                        }
+                        .text9 h1{
+                            font-size: 1rem;
+                            text-align: center;
+                            padding-top: 40px;
+                            margin-bottom: 20px;
+                        }
+                        .text9 p{
+                         text-align: center;
+                           margin: auto;
+                            width: 59%;
+                            font-size: 13px;
+                        }
+                        .text10{
+                            margin-right: 0%;
+                            width: 80%;
+                            margin: auto;
+                        }
+                        .text10 input{
+                            height: 35px;
+                            margin-top: 20px;
+                            width: 99%;
+                            
+                        }
+                        .text10 button{
+                        
+                            background-color:#6b9bff;
+                            display: block;
+                            margin-top: 10px;
+                            height: 42px;
+                            width: 100%;
+                            color: antiquewhite;
+                    }
+               
+                .text1 img{
+                    height: 20px;
+                }
+                nav ul li{
+                    
+                    margin-right: 30px;
+                }
+                .text11{
+               height: 84vh;
+                }
+                .text11 #img{
+                    width: 100px;
+                    margin-left: 5%;
+                    margin-top: 80px;
+                    margin-bottom: 10px;
+                 
+                }
+                .text12{
+                
+                    display: block;
+                    
+                    width: 90%;
+                   margin: auto;
+                
+                }
+                .mintext12{
+                    margin-top: 50px;
+                }
+                .mintext12.d{
+            width: 50%;
+            
+             margin: auto;
+
+                }
+                }
