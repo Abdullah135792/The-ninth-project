@@ -177,6 +177,7 @@ margin-left: 20px;
     margin-top: 10px;
     height: 35px;
     width: 200px;
+    border:0px;
 }
 .text11{
     height: 30vh;
@@ -649,7 +650,7 @@ width: 70%;
                     margin-right: 30px;
                 }
                 .text11{
-               height: 86vh;
+               height: 90vh;
                 }
                 .text11 #img{
                     width: 100px;
